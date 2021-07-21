@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+<head>
+  <title>자동차의 구조</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="style.css">
+  <script src="colors.js"></script>
+</head>
+<body>
+  <h1><a href="index.html">자동차에 대하여</a></h1>
+  <div id="grid">
+    <ol>
+      <li><a href="1.html" class="saw">자동차의 역사</a></li>
+      <li><a href="2.html"
+        class="saw" id=active>자동차의 구조</a></li>
+      <li><a href="3.html" class="saw">자동차의 미래</a></li>
+    </ol>
+    <div id="article">
+      <h2>자동차의 구조</h2>
+      <p style="margin-top:10px">
+      <li><strong>엔진(Engine)</strong>
+      <br>말 그대로 자동차의 동력원으로, 연료를 태워 열에너지를 운동에너지로 바꾸는 장치다. 주로 한 피스톤 엔진에서 실린더가 한 번의 회전(Cycle)에 흡입 >압축>폭발>배기의 4단계를 거치는(4행정 1사이클) 4행정 기관의 형태가 대부분으로, 3기통이다, 4기통이다 하는 말은 바로 이 실린더의 개수가 3개다, 4개다 라는 말이다. 흔히 말하는 마력(horsepower)가 바로 엔진의 성능에 따라 결정되는 단위이다. 또, 토크(Torque)는 대강 말해서 한 번의 회전에 뿜어내는 힘의 크기를 말하고 RPM은 1분에 실린더가 회전하는 사이클의 수를 의미하는데, 마력은 바로 (토크) × (RPM)에 비례하는 물리량이다.</li>
+      <li><strong>동력전달장치(Power Train)</strong>
+      <br>엔진에서 얻은 운동에너지를 바퀴에 전달하는 장치이다. 보통 엔진의 위치와 실제로 구동되는 바퀴의 위치에 따라서 분류를 하는데, 크게 엔진이 앞에 있고 움직이는 바퀴도 앞바퀴인 FF 방식, 엔진은 앞이고 움직이는 건 뒷바퀴인 FR 방식, 엔진도 구동부도 뒤인 RR 방식,이모든 바퀴를 따로 움직이는 4WD 방식, 엔진이 가운데에 있고 뒷바퀴를 움직이는 MR 방식 등이 있다.
+      <li><strong>조향장치(Steering)</strong>
+      <br>자동차가 방향 전환을 할 수 있게 만드는 장치로, 운전자가 자동차 운전대를 움직여 방향을 조정할 때 작동하는 바로 그 장치다. 현대의 자동차는 거의 전부 앞바퀴를 움직여 방향을 바꾸는 애커맨식 조향장치(Ackerman Steering Geometry)를 사용하지만, 지게차 같이 주로 후륜구동 방식을 사용하는 경우도 있다.</li>
+      <li><strong>현가장치(Suspension)</strong>
+      <br>자동차에서 나오는 충격을 줄여주는 장치로, 차축과 프레임/차체 사이에 연결되어 스프링으로 감속을 하는 방식으로 구성되어 있다.</li>
+      <li><strong>제동장치(Brake)</strong>
+      <br>브레이크. 자동차가 감속을 할 수 있게 하는 장치이다.</li>
+      <li><strong>프레임(Frame)</strong>
+      <br>섀시의 골격에 해당하는 부분이다. 차체와 섀시를 이어주는 역할을 하는데, 최근 자동차 중에선 모노코크 프레임이라는 차체와 하나가 된 형태의 프레임도 흔하게 볼 수 있다.</li>
+      </p>
+    </div>
+  </div>
+  <input id="night_day" type="button" value="night" onclick="nightdayhandler(this);">
+</body>
+</html>
